@@ -19,8 +19,16 @@ public class Lesson3 {
 //        System.out.println(rounded);
 
         String[] names = new String[3];
+        int[] numbers = new int[4];
 
+        numbers[1] = 1;
+        numbers[2] = 2;
+        numbers[3] = 3;
 
+        System.out.println(numbers[0]);
+        System.out.println(numbers[1]);
+        System.out.println(numbers[2]);
+        System.out.println(numbers[3]);
 
     }
 }
