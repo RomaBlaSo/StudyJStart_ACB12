@@ -24,5 +24,16 @@ public class MathUtils {
 
     }
 
+    public static int generateRandomDigit(int range){
+
+        return (int) (Math.random() * range);
+
+    }
+
+    public static int generateRandomDigit(int minRange, int maxRange){
+
+        return ((int) (Math.random()*(maxRange - minRange))) + minRange;
+
+    }
 
 }
