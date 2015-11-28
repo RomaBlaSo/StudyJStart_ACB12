@@ -124,7 +124,7 @@ public class ArrayUtils {
     public static int[] splitArray(int[] arr, int start, int end) {
 
         // обрезать массив по границам start и end
-        int[] newArray = new int[start - end];
+        int[] newArray = new int[end == start ? 1 : end - start];
 
         int counter = 0;
         for (int i = start; i < end; i++) {
