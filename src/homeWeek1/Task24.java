@@ -1,10 +1,10 @@
-package homeWeek1_Addition;
+package homeWeek1;
 
 import myUtils.StringUtils;
 
 import java.util.Scanner;
 
-public class Task10 {
+public class Task24 {
 
     public static void main(String[] args) {
 

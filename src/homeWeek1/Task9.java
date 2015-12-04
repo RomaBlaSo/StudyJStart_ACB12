@@ -2,7 +2,7 @@ package homeWeek1;
 
 import java.util.Scanner;
 
-public class Task4_9 {
+public class Task9 {
     public static void main(String[] args) {
 
         //Посчитать сколько раз встречается символ 5 в заданном числе, которое вводит юзер

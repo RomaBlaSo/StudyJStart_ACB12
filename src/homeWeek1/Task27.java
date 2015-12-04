@@ -1,8 +1,8 @@
-package homeWeek1_Addition;
+package homeWeek1;
 
 import java.util.Scanner;
 
-public class Task13 {
+public class Task27 {
 
     public static void main(String[] args) {
 

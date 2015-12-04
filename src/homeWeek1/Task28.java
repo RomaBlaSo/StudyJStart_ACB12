@@ -1,6 +1,6 @@
-package homeWeek1_Addition;
+package homeWeek1;
 
-public class Task14 {
+public class Task28 {
 
     public static void main(String[] args) {
 

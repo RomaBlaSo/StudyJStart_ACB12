@@ -2,7 +2,7 @@ package homeWeek1;
 
 import java.util.Scanner;
 
-public class Task5_1 {
+public class Task10 {
     public static void main(String[] args) {
 
         //Перевод с числа с десятичной системы счисления в двоичную, и наоборот. Пользователь сам вводит число
