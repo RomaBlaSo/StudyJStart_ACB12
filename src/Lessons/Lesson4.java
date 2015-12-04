@@ -1,6 +1,4 @@
-package Lessons;
-
-import MyUtils.ArrayUtils;
+package lessons;
 
 import java.util.Scanner;
 

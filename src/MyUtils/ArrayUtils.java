@@ -1,4 +1,4 @@
-package MyUtils;
+package myUtils;
 
 import java.util.Arrays;
 
@@ -103,6 +103,24 @@ public class ArrayUtils {
         return minIndex;
     }
 
+    public static int findIndexMin(String[] array) {
+
+        if (array.length == 0) {
+            return -1;
+        }
+
+        int minIndex = 0;
+        int minValue = array[0].length();
+        for (int i = 1; i < array.length; i++) {
+            if (array[i].length() < minValue) {
+                minIndex = i;
+                minValue = array[i].length();
+            }
+        }
+
+        return minIndex;
+    }
+
     public static int findIndexMax(int[] array) {
 
         if (array.length == 0) {
@@ -115,6 +133,24 @@ public class ArrayUtils {
             if (array[i] > maxValue) {
                 maxIndex = i;
                 maxValue = array[i];
+            }
+        }
+
+        return maxIndex;
+    }
+
+    public static int findIndexMax(String[] array) {
+
+        if (array.length == 0) {
+            return -1;
+        }
+
+        int maxIndex = 0;
+        int maxValue = array[0].length();
+        for (int i = 1; i < array.length; i++) {
+            if (array[i].length() > maxValue) {
+                maxIndex = i;
+                maxValue = array[i].length();
             }
         }
 
@@ -137,10 +173,26 @@ public class ArrayUtils {
 
     public static int[] sortArray(int[] array) {
         //пузырек, разобраться и дописать
-        for(int i = 0; i < array.length; i++){
 
-//            if ()
-//            array[i] = MathUtils.generateRandomDigit(1000000);
+        for (int i = array.length - 1; i >= 2; i--) {
+
+            boolean sorted = true;
+
+            for (int j = 0; j < i; j++) {
+
+                if (array[j] > array[j + 1]) {
+
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                    sorted = false;
+
+                }
+            }
+
+            if (sorted) {
+                break;
+            }
         }
 
         return array;

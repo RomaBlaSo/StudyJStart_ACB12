@@ -1,7 +1,6 @@
-package HomeWeek2;
+package homeWeek2;
 
-import MyUtils.ArrayUtils;
-import MyUtils.MathUtils;
+import myUtils.MathUtils;
 
 import java.util.Arrays;
 

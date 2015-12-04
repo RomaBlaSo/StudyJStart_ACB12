@@ -1,4 +1,4 @@
-package Lessons;
+package lessons;
 
 /**
  * Created by roma on 14.11.2015.

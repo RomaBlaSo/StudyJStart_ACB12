@@ -20,7 +20,7 @@
 //System.gc();//очистка памяти
 //long start = System.nanoTime();
 
-package Lessons;
+package lessons;
 
 public class Lesson3 {
 

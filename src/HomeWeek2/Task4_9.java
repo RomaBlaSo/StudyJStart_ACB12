@@ -1,6 +1,6 @@
-package HomeWeek2;
+package homeWeek2;
 
-import MyUtils.ArrayUtils;
+import myUtils.ArrayUtils;
 
 import java.util.Arrays;
 
@@ -26,6 +26,7 @@ public class Task4_9 {
                 counter1++;
             }
         }
+
         for (int i = 0; i < array2.length; i++) {
 
             if (array2[i] % 2 == 0) {
