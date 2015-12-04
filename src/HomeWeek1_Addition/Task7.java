@@ -10,7 +10,6 @@ public class Task7 {
 
         Scanner sc = new Scanner(System.in);
 
-        //просим числа
         System.out.println("Пожалуйста, введите номер месяца:");
         int monthNumber = sc.nextInt();
 
