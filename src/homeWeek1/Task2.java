@@ -2,7 +2,7 @@ package homeWeek1;
 
 import java.util.Scanner;
 
-public class Task4_2 {
+public class Task2 {
     public static void main(String[] args) {
 
         //Пользователь вводит три числа с консоли, нужно вывести на консоль наибольшее, наименьшее
