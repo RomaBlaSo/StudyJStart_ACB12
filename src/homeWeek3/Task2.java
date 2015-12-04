@@ -1,24 +1,20 @@
 package homeWeek3;
 
-import myUtils.ArrayUtils;
-
 import java.util.Scanner;
 
-/**
- * Created by roma on 29.11.2015.
- */
 public class Task2 {
+
     public static void main(String[] args) {
 
+        //Напишите метод, заменяющий в строке все вхождения слова «бяка» на «вырезано цензурой».
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Enter sentence:");
         String sentence = sc.nextLine();
 
-        String[] words = sentence.split(" ");
-        int minIndex = ArrayUtils.findIndexMin(words);
-        int maxIndex = ArrayUtils.findIndexMax(words);
+        //String sentence = "Поссорились как-то бяка и бука. На буку напала  Ужасная скука. А бяка устроила драку…";
 
-        System.out.printf("The longest word is %s, the shortest word is %s", words[minIndex], words[maxIndex]);
+        System.out.println(sentence.replaceAll("бяка", "*вырезано цензурой*"));
 
     }
 }
