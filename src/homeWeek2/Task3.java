@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Created by roma on 26.11.2015.
  */
-public class Task4_3 {
+public class Task3 {
     public static void main(String[] args) {
 
         //Заданы два массива одинаковой длинны с любыми значениями, скопировать данные из первого массива во второй

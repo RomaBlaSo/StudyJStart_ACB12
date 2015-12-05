@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Created by roma on 27.11.2015.
  */
-public class Task4_8 {
+public class Task8 {
     public static void main(String[] args) {
 
         //Eсть два массива одинаковой длины arr1 и arr2 вывести в консоль значения массива,

@@ -1,11 +1,26 @@
 package myUtils;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * Created by roma on 28.11.2015.
  */
 public class MatrixUtils {
+
+    public static int[][] createAndFill() {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter quantity of rows:");
+        int rowsSize = sc.nextInt();
+
+        System.out.println("Enter quantity of columns:");
+        int columnsSize = sc.nextInt();
+
+        return createAndFill(rowsSize, columnsSize);
+
+    }
 
     public static int[][] createAndFill(int rowsSize, int columnsSize) {
 
@@ -19,13 +34,19 @@ public class MatrixUtils {
         return matrix;
     }
 
-    public static void show(int[][] matrix){
+    public static void show(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             System.out.println(Arrays.toString(matrix[i]));
         }
     }
 
-    public static int[][] sort(int[][] matrix){
+    public static void show(boolean[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            System.out.println(Arrays.toString(matrix[i]));
+        }
+    }
+
+    public static int[][] sort(int[][] matrix) {
 
         for (int i = 0; i < matrix.length; i++) {
             matrix[i] = ArrayUtils.sortArray(matrix[i]);

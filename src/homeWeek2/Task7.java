@@ -5,7 +5,7 @@ import myUtils.ArrayUtils;
 /**
  * Created by roma on 27.11.2015.
  */
-public class Task4_7 {
+public class Task7 {
     public static void main(String[] args) {
 
         //Вывести в консоль элементы той половины одномерного массива у которой среднее арифметическое максимальное

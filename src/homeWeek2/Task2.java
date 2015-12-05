@@ -4,7 +4,7 @@ import myUtils.ArrayUtils;
 
 import java.util.Arrays;
 
-public class Task4_2 {
+public class Task2 {
     public static void main(String[] args) {
 
         //Поменять местами наибольший и наименьший элементы в массиве

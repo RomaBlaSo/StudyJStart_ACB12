@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Created by roma on 27.11.2015.
  */
-public class Task4_9 {
+public class Task9 {
     public static void main(String[] args) {
 
         //Задать два массива случайными числами от 25 до 75. Определить у какого из массивов больше парных елементов.

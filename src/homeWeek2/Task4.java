@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by roma on 26.11.2015.
  */
-public class Task4_4 {
+public class Task4 {
     public static void main(String[] args) {
 
         //Посчитать сколько цифр (цифра задается пользователем) в массиве

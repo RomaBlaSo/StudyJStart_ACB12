@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Created by roma on 27.11.2015.
  */
-public class Task4_5 {
+public class Task5 {
     public static void main(String[] args) {
 
         //Заполнить массив случайными значениями. На четных индексах парные значения, на нечетных непарные

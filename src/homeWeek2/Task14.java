@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Created by roma on 28.11.2015.
  */
-public class Task7_4 {
+public class Task14 {
     public static void main(String[] args) {
 
 //        Сдвинуть массив на заданное количество позиций // {1,2,3,4,5} -> 2 = {4,5,1,2,3}; {1,2,3,4,5} -> 3 = {3,4,5,1,2}

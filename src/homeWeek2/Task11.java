@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Created by roma on 28.11.2015.
  */
-public class Task7_1 {
+public class Task11 {
 
     public static void main(String[] args) {
 

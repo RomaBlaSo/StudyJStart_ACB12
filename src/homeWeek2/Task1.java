@@ -4,7 +4,7 @@ import myUtils.ArrayUtils;
 
 import java.util.Arrays;
 
-public class Task4_1 {
+public class Task1 {
     public static void main(String[] args) {
 
         //Найти минимальное и максимальное значения в массиве и вывести их на консоль

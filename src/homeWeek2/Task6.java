@@ -5,7 +5,7 @@ import myUtils.ArrayUtils;
 /**
  * Created by roma on 27.11.2015.
  */
-public class Task4_6 {
+public class Task6 {
     public static void main(String[] args) {
 
         //Найти среднее арифметическое массива

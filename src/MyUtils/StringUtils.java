@@ -35,4 +35,28 @@ public class StringUtils {
 
     }
 
+    public static String inversion(String word) {
+
+        String result = "";
+        for (int i = 0; i < word.length(); i++) {
+
+            result = word.substring(i, i + 1) + result;
+
+        }
+        return result;
+
+    }
+
+    public static String deleteEvenLetters(String word) {
+
+        String result = "";
+        for (int i = 0; i < word.length(); i++) {
+
+            result += i % 2 == 0 ? word.substring(i, i + 1) : "";
+
+        }
+        return result;
+
+    }
+
 }
