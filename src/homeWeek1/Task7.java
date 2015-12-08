@@ -3,13 +3,11 @@ package homeWeek1;
 import java.util.Scanner;
 
 public class Task7 {
-
     public static void main(String[] args) {
 
         //Вводим два числа,
         //если одно из них делиться на другое без остатка, то выводим true и показываем результат деления (целую часть от деления  и остачу)
         //в другом случае выводим false и показываем результат деления (целую часть от деления  и остачу)
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter two numbers:");

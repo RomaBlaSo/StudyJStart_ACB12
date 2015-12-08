@@ -11,7 +11,6 @@ public class Task8 {
         //1456   567  -   false
         //1      2    -   false
         //18     98   -   true
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter two numbers:");

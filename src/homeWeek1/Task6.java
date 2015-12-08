@@ -3,7 +3,6 @@ package homeWeek1;
 import java.util.Scanner;
 
 public class Task6 {
-
     public static void main(String[] args) {
 
         //Вводим два числа, вывести их суму, если она в диапазоне от 11 до 19.
@@ -17,5 +16,4 @@ public class Task6 {
         System.out.println(sum >= 11 && sum <= 19 ? "Сумма чисел: " + sum : "Сумма вышла за рамки диапазона");
 
     }
-
 }

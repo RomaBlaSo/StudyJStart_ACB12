@@ -7,7 +7,6 @@ public class Task1 {
 
         //Пользователь вводит параметр с консоли (текущий час от 0 до 24)
         //Если время от 9 до 18, то выводим "Я на работе", в другом случае "Я отдыхаю")
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter current hour (0-24):");
